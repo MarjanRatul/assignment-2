@@ -1,0 +1,116 @@
+/* Fonts  */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Prata&display=swap');
+</style>
+
+/*------------- 
+common style  
+--------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    background: #FFFFFF;
+
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    margin-top: 95px;
+    margin-right: 120px; 
+}
+nav li{
+    list-style: none;
+    margin-right: 34px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.heding{
+    margin-left: 120px;
+    margin-top: 86px;
+    font-size: 40px;
+}
+/*------------------
+ Start your Journey  
+ -------------------*/
+.section-1{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.starts{
+    width: 50%;
+    margin-top: 125px;
+}
+.start{
+    font-size: 60px;
+
+}
+.right-side{
+    width: 50%;
+    margin-left: 20%;
+    position: relative;
+    margin-top: 125px;
+}
+.right-side img{
+    width: 80%;
+}
+.right-side:hover {
+    transform: scale(1.3) rotate(45deg);
+    transition: transform 2s ease-in-out;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+    background: #E02C6D;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 50px;
+}
+.button-deco{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.fas{
+    color: white;
+    margin-left: 10px;
+}
+#image-1{
+    position: relative;
+    z-index: 2;
+}
+#image-2{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+}
+/*------
+ Logos 
+ ------*/
+ .section-2{
+     margin-top: 150px;
+     /* justify-content: center; */
+     border-top: 1px solid;
+     border-bottom: 1px solid;
+     margin-left: 300px;
+     margin-right: 300px;
+ }
+ .logo{
+     
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-row-gap: 50px; */
+ }
+ .logos{
+     margin: 50px;
+     /* padding: 20px; */
+ }
